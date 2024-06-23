@@ -163,6 +163,7 @@ button {
 /* Start Welcome Section */
 .first-section{
     margin-top: 150px;
+    height: 100vh;
 }
 .first-content{
     text-align: center;
@@ -274,3 +275,76 @@ width: 100%;
 
 /* End Welcome Section */
 /* ///////////////////////////////////////////// */
+/* Start Second Section */
+.second-section{
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.second-content{
+    margin-bottom: 50px;
+}
+.second-box{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+}
+.second-box img {
+    width: 100%;
+    height: 300px;
+}
+.overlay-content{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height:100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition:opacity 1s;
+    margin: auto;
+}
+.second-box:hover .overlay-content{
+    opacity:1;
+    visibility: visible;
+}
+.second-box:hover .overlay-info{
+   top:50%;
+   left: 50%;
+   opacity: 1;
+   visibility: visible;
+}
+.overlay-info{
+    position: absolute;
+    left:25%;
+    top:30%;
+    width: 80%;
+   transform: translate(-50%,-50%);
+   
+}
+.overlay-info span{
+    text-align: center;
+   font-size: 28px;
+   color: #fff;
+   padding: 10px;
+}
+.overlay-info p{
+    text-align: center;
+   font-size: 28px;
+   color: #fff;
+   padding: 15px;
+}
+.second-btn{
+    font-size: 28px;
+   color: #fff;
+   padding: 10px;
+   border: 2px solid #15B9D9;
+   margin-top: 10px;
+}
+/* ///////////////////////////////////////////// */
+/* End Second Section */
