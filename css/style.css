@@ -398,7 +398,7 @@ width: 100%;
 /* ///////////////////////////////////////////// */
 /* Start Why Choose US Section */
 .about-section{
-    /* margin-top: 70px; */
+   height: 75vh;
 }
 /* .about-box{
     overflow: auto;
@@ -450,7 +450,7 @@ width: 100%;
 .about-list li{
     font-size: 22px;
     color: #efa286;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .about-list li i {
     font-size: 25px;
@@ -458,3 +458,56 @@ width: 100%;
     padding: 10px;
 }
 /* End Why Choose US Section */
+/* Start Count Section */
+.count-section{
+    height: 500px;
+    background-image: url(../images/about/12.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.count-section .container{
+    width: 80%;
+}
+.count-parent{
+    margin-top: 150px;
+    overflow: auto;
+}
+.count-round{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.count-img{
+    float: left;
+}
+.count-info{
+    float: left;
+    padding: 30px;
+    font-size: 22px;
+    color: #fff;
+}
+.count-sec{
+    overflow: auto;
+}
+.count-box{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.count-desc{
+    text-wrap: wrap;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.count-icon{
+    font-size: 60px;
+    color: #15b9d9;
+}
+/* End Count Section */
+/* ///////////////////////////////////////////// */
